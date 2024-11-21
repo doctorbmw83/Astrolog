@@ -2,8 +2,9 @@
 
     .nav,
     .nav__list {
-        flex-direction: column;
-        padding: 12px;
+        display: none;
+        /* flex-direction: column;
+        padding: 12px; */
     }
 
     .hero__desc {
@@ -21,6 +22,26 @@
         font-size: 60px;
     }
 
+    .questions__title {
+
+
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .timeline__title {
+        font-size: 14px;
+
+    }
+
+    .accordion-button {
+        font-size: 16px;
+    }
+        .questions__text {
+            font-size: 14px;
+        }
 }
 
 @media (max-width: 450px) {
@@ -87,10 +108,7 @@
         font-size: 32px;
     }
 
-    .timeline__title {
-        font-size: 14px;
 
-    }
 
     .timeline__subtitle {
         font-size: 13px;

@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     /* background-color: var(--background-default); */
     /* border-top-left-radius: 100px; */
-    color: #fff;
+    /* color: #fff; */
 }
 
 .contacts__title {
@@ -57,7 +57,7 @@
     padding: 46px 20px;
     border-radius: 20px;
     border: 1px solid #363636;
-    color: #fff;
+    color: var(--text-default);
     font-size: 20px;
     transition: background-color .3s ease-in;
 }
