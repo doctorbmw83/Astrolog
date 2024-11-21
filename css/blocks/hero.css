@@ -1,14 +1,16 @@
 .hero {
+	display: flex;
 	height: 100dvh;
 	padding-top: 567px;
 	padding-bottom: 225px;
-
 	background-color: #020000;
 	background-image: url('./../../img/hero/hero-1.jpg');
 	/* background-image: image-set(
 		url('./../../img/hero/hero.png') 1x,
 		url('./../../img/hero/hero@2x.png') 2x
 	); */
+	object-fit: contain;
+	place-content: start;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;

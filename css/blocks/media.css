@@ -1,8 +1,9 @@
 @media (max-width: 768px) {
 
-    .nav__list,
-    a.nav__btn {
-        display: none;
+    .nav,
+    .nav__list {
+        flex-direction: column;
+        padding: 12px;
     }
 
     .hero__desc {
@@ -109,10 +110,12 @@
         padding: 3px;
 
     }
-    .contacts__title{
+
+    .contacts__title {
         font-size: 28px;
     }
-        .messenger{
-            font-size: 18px;
-        }
+
+    .messenger {
+        font-size: 18px;
+    }
 }
