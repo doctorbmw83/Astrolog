@@ -14,3 +14,7 @@
 .footer__inner p+p {
     margin-top: 15px;
 }
+.footer__inner--link{
+    color: inherit;
+    
+}
